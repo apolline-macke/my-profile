@@ -1,0 +1,168 @@
+/*Text*/
+
+h1{
+	color: #df7861;
+	font-size: 80px;
+	letter-spacing: 30px;
+	font-weight: bold;
+}
+h2{
+	padding: 10px;
+	text-align: center;
+	font-size: 25px;
+	letter-spacing:5px;
+	color: #df7861;
+}
+
+h3{
+	font-size: 23px;
+	font-style: bold;
+	color: #df7861;
+}
+h4{
+	font-size: 20px;
+	font-style: bold;
+	color: #000000;
+}
+h5{
+	font-size: 17px;
+	font-style: bold;
+	color: #000000;
+}
+body{font-family: 'Montserrat', sans-serif;
+	background: #f6f1eb;
+	color: #000000;
+	font-size: 17px;
+}
+a{
+	background-color: #df7861;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 4px;
+}
+a:hover {
+	background-color: #FFFFFF;
+	color: #df7861;
+}
+
+/*Design class and id*/
+
+#img-circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	float: left;
+
+}
+.img-rectangle {
+	width: 170px;
+	height: 130px;
+}
+
+
+.banner{
+	background-image: url(image/banniere.jpeg);
+	background-position: center;
+	text-align: center;
+	image-size : cover;
+	background-repeat: no repeat;
+	padding: 40px;
+
+}
+
+.main-card{
+	padding: 40px;
+	margin: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 6px;
+}
+
+@media (max-width: 400px){
+	.main-card{
+		width: 300px;
+	}
+	.banner{
+		width: 300px;
+		background-size: 300px;
+	}
+}
+.box-align{
+	display: flex;
+}
+.square-card{
+	background-color: white;
+	text-align: center;
+	justify-content: space-around;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 6px;
+}
+#activité {
+	background-color: #f6f1eb;
+	box-shadow: none;
+	border-radius: none;
+}
+
+.activities{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	float: left;
+}
+
+.card-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	padding: 20px;
+	background-color: white;
+	margin: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 6px;
+}
+.card-line h4 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+.card-line h5 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+.card-line p {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+ul{
+	text-align: center;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding-left: 0px;
+	text-align: center;
+
+}
+
+.footer{
+	background-image: url(image/banniere.jpeg);
+	background-position: center;
+	text-align: center;
+	image-size : cover;
+	background-repeat: no repeat;
+	padding: 40px;
+	
+}
+.footer h1 {
+	color: #df7861;
+	font-size: 40px;
+	letter-spacing: 10px;
+	font-weight: bold;
+	margin: 60px;
+}
